@@ -24,7 +24,8 @@ run_analysis.R main script doing the following:
 Resulting tidy is located in uci_har_tidy_dataset.txt.
 
 Variables:
-1. Subject ID: integer: The identifier of the subject of measurements (person identifier)
+
+1. Subject ID: integer: The identifier of the subject of measurements (person identifier).
 2. Activity Name: character: The activity name can be one of the following:
     1. WALKING
     2. WALKING_UPSTAIRS
@@ -32,51 +33,51 @@ Variables:
     4. SITTING
     5. STANDING
     6. LAYING
-3. tBodyAcc-mean()-X: double: see features_info.txt for description
-4. tBodyAcc-mean()-Y: double: see features_info.txt for description
-5. tBodyAcc-mean()-Z: double: see features_info.txt for description
-6. tBodyAcc-std()-X: double: see features_info.txt for description
-7. tBodyAcc-std()-Y: double: see features_info.txt for description
-8. tBodyAcc-std()-Z: double: see features_info.txt for description
-9. tGravityAcc-mean()-X: double: see features_info.txt for description
-10. tGravityAcc-mean()-Y: double: see features_info.txt for description
-11. tGravityAcc-mean()-Z: double: see features_info.txt for description
-12. tGravityAcc-std()-X: double: see features_info.txt for description
-13. tGravityAcc-std()-Y: double: see features_info.txt for description
-14. tGravityAcc-std()-Z: double: see features_info.txt for description
-15. tBodyAccJerk-mean()-X: double: see features_info.txt for description
-16. tBodyAccJerk-mean()-Y: double: see features_info.txt for description
-17. tBodyAccJerk-mean()-Z: double: see features_info.txt for description
-18. tBodyAccJerk-std()-X: double: see features_info.txt for description
-19. tBodyAccJerk-std()-Y: double: see features_info.txt for description
-20. tBodyAccJerk-std()-Z: double: see features_info.txt for description
-21. tBodyGyro-mean()-X: double: see features_info.txt for description
-22. tBodyGyro-mean()-Y: double: see features_info.txt for description
-23. tBodyGyro-mean()-Z: double: see features_info.txt for description
-24. tBodyGyro-std()-X: double: see features_info.txt for description
-25. tBodyGyro-std()-Y: double: see features_info.txt for description
-26. tBodyGyro-std()-Z: double: see features_info.txt for description
-27. tBodyGyroJerk-mean()-X: double: see features_info.txt for description
-28. tBodyGyroJerk-mean()-Y: double: see features_info.txt for description
-29. tBodyGyroJerk-mean()-Z: double: see features_info.txt for description
-30. tBodyGyroJerk-std()-X: double: see features_info.txt for description
-31. tBodyGyroJerk-std()-Y: double: see features_info.txt for description
-32. tBodyGyroJerk-std()-Z: double: see features_info.txt for description
-33. fBodyAcc-mean()-X: double: see features_info.txt for description
-34. fBodyAcc-mean()-Y: double: see features_info.txt for description
-35. fBodyAcc-mean()-Z: double: see features_info.txt for description
-36. fBodyAcc-std()-X: double: see features_info.txt for description
-37. fBodyAcc-std()-Y: double: see features_info.txt for description
-38. fBodyAcc-std()-Z: double: see features_info.txt for description
-39. fBodyAccJerk-mean()-X: double: see features_info.txt for description
-40. fBodyAccJerk-mean()-Y: double: see features_info.txt for description
-41. fBodyAccJerk-mean()-Z: double: see features_info.txt for description
-42. fBodyAccJerk-std()-X: double: see features_info.txt for description
-43. fBodyAccJerk-std()-Y: double: see features_info.txt for description
-44. fBodyAccJerk-std()-Z: double: see features_info.txt for description
-45. fBodyGyro-mean()-X: double: see features_info.txt for description
-46. fBodyGyro-mean()-Y: double: see features_info.txt for description
-47. fBodyGyro-mean()-Z: double: see features_info.txt for description
-48. fBodyGyro-std()-X: double: see features_info.txt for description
-49. fBodyGyro-std()-Y: double: see features_info.txt for description
-50. fBodyGyro-std()-Z: double: see features_info.txt for description
+3. tBodyAcc-mean()-X: double: see features_info.txt for description.
+4. tBodyAcc-mean()-Y: double: see features_info.txt for description.
+5. tBodyAcc-mean()-Z: double: see features_info.txt for description.
+6. tBodyAcc-std()-X: double: see features_info.txt for description.
+7. tBodyAcc-std()-Y: double: see features_info.txt for description.
+8. tBodyAcc-std()-Z: double: see features_info.txt for description.
+9. tGravityAcc-mean()-X: double: see features_info.txt for description.
+10. tGravityAcc-mean()-Y: double: see features_info.txt for description.
+11. tGravityAcc-mean()-Z: double: see features_info.txt for description.
+12. tGravityAcc-std()-X: double: see features_info.txt for description.
+13. tGravityAcc-std()-Y: double: see features_info.txt for description.
+14. tGravityAcc-std()-Z: double: see features_info.txt for description.
+15. tBodyAccJerk-mean()-X: double: see features_info.txt for description.
+16. tBodyAccJerk-mean()-Y: double: see features_info.txt for description.
+17. tBodyAccJerk-mean()-Z: double: see features_info.txt for description.
+18. tBodyAccJerk-std()-X: double: see features_info.txt for description.
+19. tBodyAccJerk-std()-Y: double: see features_info.txt for description.
+20. tBodyAccJerk-std()-Z: double: see features_info.txt for description.
+21. tBodyGyro-mean()-X: double: see features_info.txt for description.
+22. tBodyGyro-mean()-Y: double: see features_info.txt for description.
+23. tBodyGyro-mean()-Z: double: see features_info.txt for description.
+24. tBodyGyro-std()-X: double: see features_info.txt for description.
+25. tBodyGyro-std()-Y: double: see features_info.txt for description.
+26. tBodyGyro-std()-Z: double: see features_info.txt for description.
+27. tBodyGyroJerk-mean()-X: double: see features_info.txt for description.
+28. tBodyGyroJerk-mean()-Y: double: see features_info.txt for description.
+29. tBodyGyroJerk-mean()-Z: double: see features_info.txt for description.
+30. tBodyGyroJerk-std()-X: double: see features_info.txt for description.
+31. tBodyGyroJerk-std()-Y: double: see features_info.txt for description.
+32. tBodyGyroJerk-std()-Z: double: see features_info.txt for description.
+33. fBodyAcc-mean()-X: double: see features_info.txt for description.
+34. fBodyAcc-mean()-Y: double: see features_info.txt for description.
+35. fBodyAcc-mean()-Z: double: see features_info.txt for description.
+36. fBodyAcc-std()-X: double: see features_info.txt for description.
+37. fBodyAcc-std()-Y: double: see features_info.txt for description.
+38. fBodyAcc-std()-Z: double: see features_info.txt for description.
+39. fBodyAccJerk-mean()-X: double: see features_info.txt for description.
+40. fBodyAccJerk-mean()-Y: double: see features_info.txt for description.
+41. fBodyAccJerk-mean()-Z: double: see features_info.txt for description.
+42. fBodyAccJerk-std()-X: double: see features_info.txt for description.
+43. fBodyAccJerk-std()-Y: double: see features_info.txt for description.
+44. fBodyAccJerk-std()-Z: double: see features_info.txt for description.
+45. fBodyGyro-mean()-X: double: see features_info.txt for description.
+46. fBodyGyro-mean()-Y: double: see features_info.txt for description.
+47. fBodyGyro-mean()-Z: double: see features_info.txt for description.
+48. fBodyGyro-std()-X: double: see features_info.txt for description.
+49. fBodyGyro-std()-Y: double: see features_info.txt for description.
+50. fBodyGyro-std()-Z: double: see features_info.txt for description.
