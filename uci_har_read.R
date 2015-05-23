@@ -8,7 +8,7 @@ if (!exists("HAR")) {
     # Constants
     
     # Temporary folder for UCI HAR data
-    TEMP_FOLDER <- file.path("temp", "UCI_HAR")
+    TEMP_FOLDER <- file.path("temp")
     # UCI HAR Dataset zip file
     TEMP_ZIP <- file.path(TEMP_FOLDER, "data.zip")
     
