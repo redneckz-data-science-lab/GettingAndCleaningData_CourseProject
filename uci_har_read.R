@@ -6,18 +6,22 @@ if (!exists("HAR")) {
 (function() {
 
     # Constants
+    
+    # Temporary folder for UCI HAR data
     TEMP_FOLDER <- file.path("temp", "UCI_HAR")
+    # UCI HAR Dataset zip file
     TEMP_ZIP <- file.path(TEMP_FOLDER, "data.zip")
     
+    # Unziped UCI HAR Dataset folder
     UCI_HAR_DATASET_FOLDER <- file.path(TEMP_FOLDER, "UCI HAR Dataset")
-    # Activity labels file
+    # UCI HAR Dataset activity labels file
     ACTIVITY_LABELS_FILE <- file.path(UCI_HAR_DATASET_FOLDER, "activity_labels.txt")
-    # Feature names file
+    # UCI HAR Dataset feature names file
     FEATURES_FILE <- file.path(UCI_HAR_DATASET_FOLDER, "features.txt")
     
-    # Folder with test data
+    # Folder with test dataset
     TEST_DATASET_FOLDER <- file.path(UCI_HAR_DATASET_FOLDER, "test")
-    # Folder with training data
+    # Folder with training dataset
     TRAIN_DATASET_FOLDER <- file.path(UCI_HAR_DATASET_FOLDER, "train")
     
     # Public functions
@@ -50,8 +54,7 @@ if (!exists("HAR")) {
         # Training dataset
         train.dataset <- ReadReducedDataset(TRAIN_DATASET_FOLDER, activity.labels, features)
         # Combined dataset
-        combined.dataset <- rbind(test.dataset, train.dataset)
-        return(combined.dataset)
+        return(rbind(test.dataset, train.dataset))
     }
     
     # Private functions
