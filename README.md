@@ -31,3 +31,12 @@ The data for the project is located [here](https://d396qusza40orc.cloudfront.net
 5. uci_har_read.R: Module resposible for 4.1 to 4.4 steps.
 6. load_libraries.R: Utility module used for loading required libraries.
 7. uci_har_tidy_dataset.txt: Resulting data set (see 4.6)
+
+## How to run
+
+Just run run_analysis.R script. It takes care about all things such as:
+
+1. Installation and loading of required packages/modules.
+2. Loading and preparing UCI HAR Dataset.
+3. Data transformations.
+4. Writing tidy dataset to uci_har_tidy_dataset.txt.
