@@ -20,7 +20,7 @@ The data for the project is located [here](https://d396qusza40orc.cloudfront.net
 1. CodeBook.md: Describes the variables, the data, and any transformations that was performed to clean up the data.
 2. features_info.txt: Information about the variables/features/measurements.
 3. activity_labels.txt: Lists the activity names.
-4. run_analysis.R: Main script doing the following:
+4. run_analysis.R: Main script does the following:
     0. Downloads and unzips [project data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) to temp directory.
     1. Merges the training and the test sets from [project data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) to create one data set.
     2. Extracts only the measurements on the mean and standard deviation for each measurement.

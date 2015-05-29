@@ -10,7 +10,8 @@ The data for the project is located [here](https://d396qusza40orc.cloudfront.net
 
 ## Project Data Transformations
 
-run_analysis.R main script doing the following:
+run_analysis.R main script does the following:
+
 0. Downloads and unzips [project data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) to temp directory.
 1. Merges the training and the test sets from [project data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
